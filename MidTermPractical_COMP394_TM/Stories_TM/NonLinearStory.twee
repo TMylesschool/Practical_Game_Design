@@ -1,0 +1,68 @@
+:: StoryTitle
+NonLinearStory
+
+
+:: StoryData
+{
+  "ifid": "FB31DBFC-C3E7-491B-ADD9-4ED0B4CFDC7A",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Blue Path {"position":"837.5,500","size":"100,100"}
+The blue mushrooms emit a calming hum. A fairy appears and offers you a small glowing orb.
+
+[[Accept the orb->Orb Accepted]]
+[[Refuse the orb->Orb Refused]]
+
+
+
+:: Deep Silence {"position":"900,800","size":"100,100"}
+You walk deeper, every step heavier. You’re unsure if you are still yourself.
+
+[[Return->Start]]  
+
+
+:: Freedom Wish {"position":"1100,625","size":"100,100"}
+The wind lifts you off your feet and gently carries you... back to the forest entrance. You're free — but unsure if it was real.
+
+[[Continue->Start]]  
+
+
+:: Orb Accepted {"position":"725,625","size":"100,100"}
+The orb melts into your hand, filling you with warmth. Suddenly, you're transported back to the forest entrance. The trees bow respectfully.
+
+[[Continue->Start]]
+
+
+:: Orb Refused {"position":"850,625","size":"100,100"}
+The fairy frowns and vanishes. The forest grows silent... too silent. You feel watched.
+
+[[Continue cautiously->Deep Silence]]
+
+
+
+:: Power Wish {"position":"975,625","size":"100,100"}
+The ground trembles as roots wrap around your legs. Power comes — but as a tree spirit prisoner. You roar... but no one hears.
+
+[[End->Start]]
+
+
+
+:: Red Path {"position":"962.5,500","size":"100,100"}
+The red leaves crackle under your boots. A deep voice echoes: ''State your wish.''
+
+[[Wish for power->Power Wish]]
+[[Wish for freedom->Freedom Wish]]
+
+
+
+:: Start {"position":"900,375","size":"100,100"}
+You enter the Whispering Forest, known for granting wishes — but at a cost. A fork lies ahead.
+
+[[Follow the glowing left path->Blue Path]]
+[[Take the rustling red path->Red Path]]
+

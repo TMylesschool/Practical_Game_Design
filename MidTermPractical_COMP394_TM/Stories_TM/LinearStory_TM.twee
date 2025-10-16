@@ -1,0 +1,31 @@
+:: StoryTitle
+LinearStory_TM
+
+
+:: StoryData
+{
+  "ifid": "7D89481D-7200-4B31-9BFC-C3E7791B2DD9",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Cabin {"position":"900,500","size":"100,100"}
+The train screeches to a halt. Its doors slide open with a metallic sigh. You step inside and find an empty cabin. You sit by the window and watch the station disappear as the train begins to move.
+
+[[Close your eyes->Reflection]]
+
+
+
+:: Reflection {"position":"775,625","size":"100,100"}
+You close your eyes and whisper to yourself, ''There’s no turning back now.''
+
+[[Start]]
+
+
+:: Start {"position":"775,375","size":"100,100"}
+You stand alone on a quiet train platform at midnight. The announcement board flickers: ''Last Train Approaching.'' You clutch your suitcase, unsure if you’re ready to leave your hometown forever. The wind howls as the approaching lights grow brighter.
+
+[[Board the train->Cabin]]
